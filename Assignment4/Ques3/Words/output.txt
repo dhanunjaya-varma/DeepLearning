@@ -1,0 +1,25 @@
+
+GRU
+=================
+Elizabeth wanted to run away in the distance because... -> elizabeth wanted to run away in the distance because laughing, alter nonsensical slight was habit felt.+ behaved, parties, meaning
+
+Mr. Darcy was a very... -> mr. darcy was a very surpassing produced “this entreated ——shire father, conduct; impossible.+ party,” intervals
+
+Mr. Wickham, a tall young man, made... -> mr. wickham, a tall young man, made you rank commiseration, by was news, a parsonage, schemes appeased
+
+Mrs. Bennet was so excited that she could... -> mrs. bennet was so excited that she could regiment. manner; heirs congenial meat go; “dining decided to ridicule.”
+
+Lady Catherine, having heard about Elizabeth and Darcy, visits... -> lady catherine, having heard about elizabeth and darcy, visits comfortable, ago happen apologise summer.+ strange. with communication elizabeth. familiarity
+
+LSTM
+=================
+
+Elizabeth wanted to run away in the distance because... -> elizabeth wanted to run away in the distance because overpowered brighton! seen! governess! alarm, agreement spring? survey, wide carriages
+
+Mr. Darcy was a very... -> mr. darcy was a very library.+ belief shocked,” injustice barbarous denial, resentfully recent marriage, extraordinary
+
+Mr. Wickham, a tall young man, made... -> mr. wickham, a tall young man, made delicious wife form startled bringing excuse yourself, money arrival. returned
+
+Mrs. Bennet was so excited that she could... -> mrs. bennet was so excited that she could closely niece measure is! sisters. then—supposing coolly dearest good-natured, scheme.
+
+Lady Catherine, having heard about Elizabeth and Darcy, visits... -> lady catherine, having heard about elizabeth and darcy, visits communicated 'violently persuade “poor for, anxious, “certainly, levelled in.”+ husband's

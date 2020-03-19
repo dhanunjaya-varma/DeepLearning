@@ -7,3 +7,4 @@
 $ python 3_1.py # FC Network trained on MNIST dataset
 $ python 3_2.py # FC Network trained on Lines dataset
 ```
+

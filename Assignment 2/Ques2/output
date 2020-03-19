@@ -1,0 +1,59 @@
+runfile('/home/dhanunjaya/Downloads/Assignment1/multihead.py', wdir='/home/dhanunjaya/Downloads/Assignment1')
+Train on 57600 samples, validate on 38400 samples
+Epoch 1/4
+57600/57600 [==============================] - 569s 10ms/step - loss: 1.3789 - length_loss: 0.3105 - width_loss: 0.1280 - color_loss: 0.0067 - rotation_loss: 0.9337 - length_acc: 0.9421 - width_acc: 0.9793 - color_acc: 0.9974 - rotation_acc: 0.7844 - val_loss: 0.2055 - val_length_loss: 0.0475 - val_width_loss: 0.0170 - val_color_loss: 5.4947e-05 - val_rotation_loss: 0.1409 - val_length_acc: 0.9858 - val_width_acc: 0.9959 - val_color_acc: 1.0000 - val_rotation_acc: 0.9506
+Epoch 2/4
+57600/57600 [==============================] - 559s 10ms/step - loss: 0.1277 - length_loss: 0.0207 - width_loss: 0.0074 - color_loss: 0.0027 - rotation_loss: 0.0969 - length_acc: 0.9934 - width_acc: 0.9980 - color_acc: 0.9995 - rotation_acc: 0.9680 - val_loss: 0.2150 - val_length_loss: 0.0151 - val_width_loss: 0.0035 - val_color_loss: 3.6248e-04 - val_rotation_loss: 0.1961 - val_length_acc: 0.9958 - val_width_acc: 0.9991 - val_color_acc: 0.9999 - val_rotation_acc: 0.9411
+Epoch 3/4
+57600/57600 [==============================] - 561s 10ms/step - loss: 0.1153 - length_loss: 0.0219 - width_loss: 0.0063 - color_loss: 0.0017 - rotation_loss: 0.0854 - length_acc: 0.9941 - width_acc: 0.9983 - color_acc: 0.9998 - rotation_acc: 0.9725 - val_loss: 0.1157 - val_length_loss: 0.0158 - val_width_loss: 0.0068 - val_color_loss: 3.3752e-04 - val_rotation_loss: 0.0929 - val_length_acc: 0.9955 - val_width_acc: 0.9982 - val_color_acc: 0.9999 - val_rotation_acc: 0.9720
+Epoch 4/4
+57600/57600 [==============================] - 574s 10ms/step - loss: 0.0966 - length_loss: 0.0097 - width_loss: 0.0041 - color_loss: 8.4601e-04 - rotation_loss: 0.0820 - length_acc: 0.9974 - width_acc: 0.9987 - color_acc: 0.9999 - rotation_acc: 0.9765 - val_loss: 0.2398 - val_length_loss: 0.0075 - val_width_loss: 0.0056 - val_color_loss: 3.7561e-04 - val_rotation_loss: 0.2263 - val_length_acc: 0.9982 - val_width_acc: 0.9988 - val_color_acc: 0.9999 - val_rotation_acc: 0.9588
+38400/38400 [==============================] - 93s 2ms/step
+length head confusion matrix:
+[[19200     0]
+ [19200     0]]
+width head confusion matrix:
+[[19200     0]
+ [19200     0]]
+color head confusion matrix:
+[[19200     0]
+ [19200     0]]
+rotation head confusion matrix:
+[[3175    5    0    0    0    0    0    0    0    0    0   20]
+ [  27 3143   30    0    0    0    0    0    0    0    0    0]
+ [   1   31 3148   20    0    0    0    0    0    0    0    0]
+ [   0    5   23 3147   12    6    0    0    0    7    0    0]
+ [   0    0    0   78 3118    4    0    0    0    0    0    0]
+ [   0    0    0   45   80 2849  220    6    0    0    0    0]
+ [   0    0    0    0    0   26 3112   62    0    0    0    0]
+ [   0    0    0    1    0    0   29 3134   30    6    0    0]
+ [   0    0    0    0    0    0    0   47 2600  553    0    0]
+ [   2    0    0    6    0    0    0    1   13 3151   16   11]
+ [   0    0    0    0    0    0    0    0    0   13 3065  122]
+ [  15    7    1    0    0    0    0    0    0    0    2 3175]]
+#####################################################################
+length head params:
+(array([0.5, 0. ]), array([1., 0.]), array([0.66666667, 0.        ]), array([19200, 19200]))
+width head fscores:
+(array([0.5, 0. ]), array([1., 0.]), array([0.66666667, 0.        ]), array([19200, 19200]))
+color head fscores:
+(array([0.5, 0. ]), array([1., 0.]), array([0.66666667, 0.        ]), array([19200, 19200]))
+rotation head fscores:
+(array([0.98602484, 0.98495769, 0.98313554, 0.95450409, 0.97133956,
+       0.98752166, 0.92591491, 0.96430769, 0.98373061, 0.84477212,
+       0.99416153, 0.95402644]), array([0.9921875, 0.9821875, 0.98375  , 0.9834375, 0.974375 , 0.8903125,
+       0.9725   , 0.979375 , 0.8125   , 0.9846875, 0.9578125, 0.9921875]), array([0.98909657, 0.98357065, 0.98344267, 0.96875481, 0.97285491,
+       0.93640099, 0.94863588, 0.97178295, 0.88995379, 0.90937951,
+       0.97564858, 0.97273284]), array([3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200, 3200,
+       3200]))
+Test total loss: 0.2397964512861745
+Test length loss: 0.0075330217087824225
+Test width loss: 0.00562133286005503
+Test color loss: 0.0003756138010514339
+Test rotation loss: 0.2262664832828665
+Test length accuracy: 0.9982291666666666
+Test width accuracy: 0.99875
+Test color accuracy: 0.9999479166666667
+Test rotation accuracy: 0.9587760416666666
+/home/dhanunjaya/anaconda3/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
